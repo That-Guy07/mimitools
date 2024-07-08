@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="Body p-1 mx-auto max-w-4xl">
+      <div className="Body p-1 mx-auto max-w-4xl xl:max-w-6xl">
         <h1 className="font-bold text-lg mx-1 my-2">Tools</h1>
         <div className="Tools">
           <Link href="tools/ytdownloader">
